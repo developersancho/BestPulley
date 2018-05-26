@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FD1203C721C1CACB1F8EF82 /* Pods_BestPulley.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5505FB02316AC21E59BC7BC9 /* Pods_BestPulley.framework */; };
 		E2F6487620B848B2005D54AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F6487520B848B2005D54AD /* AppDelegate.swift */; };
-		E2F6487820B848B2005D54AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F6487720B848B2005D54AD /* ViewController.swift */; };
+		E2F6487820B848B2005D54AD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F6487720B848B2005D54AD /* HomeViewController.swift */; };
 		E2F6487B20B848B2005D54AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F6487920B848B2005D54AD /* Main.storyboard */; };
 		E2F6487D20B848B4005D54AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2F6487C20B848B4005D54AD /* Assets.xcassets */; };
 		E2F6488020B848B4005D54AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F6487E20B848B4005D54AD /* LaunchScreen.storyboard */; };
+		E2F6488A20B851E9005D54AD /* ContentMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F6488920B851E9005D54AD /* ContentMenuViewController.swift */; };
+		E2F6488C20B85EBE005D54AD /* PullUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F6488B20B85EBE005D54AD /* PullUpController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2373C50C546415307BC2995A /* Pods-BestPulley.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestPulley.release.xcconfig"; path = "Pods/Target Support Files/Pods-BestPulley/Pods-BestPulley.release.xcconfig"; sourceTree = "<group>"; };
+		5505FB02316AC21E59BC7BC9 /* Pods_BestPulley.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BestPulley.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4363CE6A0C40D950525E240 /* Pods-BestPulley.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestPulley.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BestPulley/Pods-BestPulley.debug.xcconfig"; sourceTree = "<group>"; };
 		E2F6487220B848B2005D54AD /* BestPulley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestPulley.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2F6487520B848B2005D54AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E2F6487720B848B2005D54AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2F6487720B848B2005D54AD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E2F6487A20B848B2005D54AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2F6487C20B848B4005D54AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2F6487F20B848B4005D54AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2F6488120B848B4005D54AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F6488920B851E9005D54AD /* ContentMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentMenuViewController.swift; sourceTree = "<group>"; };
+		E2F6488B20B85EBE005D54AD /* PullUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullUpController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FD1203C721C1CACB1F8EF82 /* Pods_BestPulley.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A0A683F6250B8D3516E446B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4363CE6A0C40D950525E240 /* Pods-BestPulley.debug.xcconfig */,
+				2373C50C546415307BC2995A /* Pods-BestPulley.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B09B23111C3827FDB8CAA36B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5505FB02316AC21E59BC7BC9 /* Pods_BestPulley.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E20A459C20B8956F007B3566 /* PullUpController */ = {
+			isa = PBXGroup;
+			children = (
+				E2F6488B20B85EBE005D54AD /* PullUpController.swift */,
+			);
+			path = PullUpController;
+			sourceTree = "<group>";
+		};
 		E2F6486920B848B2005D54AD = {
 			isa = PBXGroup;
 			children = (
+				E20A459C20B8956F007B3566 /* PullUpController */,
 				E2F6487420B848B2005D54AD /* BestPulley */,
 				E2F6487320B848B2005D54AD /* Products */,
+				A0A683F6250B8D3516E446B9 /* Pods */,
+				B09B23111C3827FDB8CAA36B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,7 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				E2F6487520B848B2005D54AD /* AppDelegate.swift */,
-				E2F6487720B848B2005D54AD /* ViewController.swift */,
+				E2F6487720B848B2005D54AD /* HomeViewController.swift */,
+				E2F6488920B851E9005D54AD /* ContentMenuViewController.swift */,
 				E2F6487920B848B2005D54AD /* Main.storyboard */,
 				E2F6487C20B848B4005D54AD /* Assets.xcassets */,
 				E2F6487E20B848B4005D54AD /* LaunchScreen.storyboard */,
@@ -71,9 +109,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2F6488420B848B4005D54AD /* Build configuration list for PBXNativeTarget "BestPulley" */;
 			buildPhases = (
+				0137D126B123A88DD2F5C8F2 /* [CP] Check Pods Manifest.lock */,
 				E2F6486E20B848B2005D54AD /* Sources */,
 				E2F6486F20B848B2005D54AD /* Frameworks */,
 				E2F6487020B848B2005D54AD /* Resources */,
+				CFE261DF2771ED0887F5A5AE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +170,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0137D126B123A88DD2F5C8F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BestPulley-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFE261DF2771ED0887F5A5AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BestPulley/Pods-BestPulley-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Pulley/Pulley.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pulley.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BestPulley/Pods-BestPulley-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E2F6486E20B848B2005D54AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2F6487820B848B2005D54AD /* ViewController.swift in Sources */,
+				E2F6487820B848B2005D54AD /* HomeViewController.swift in Sources */,
+				E2F6488A20B851E9005D54AD /* ContentMenuViewController.swift in Sources */,
 				E2F6487620B848B2005D54AD /* AppDelegate.swift in Sources */,
+				E2F6488C20B85EBE005D54AD /* PullUpController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +359,7 @@
 		};
 		E2F6488520B848B4005D54AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4363CE6A0C40D950525E240 /* Pods-BestPulley.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +378,7 @@
 		};
 		E2F6488620B848B4005D54AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2373C50C546415307BC2995A /* Pods-BestPulley.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

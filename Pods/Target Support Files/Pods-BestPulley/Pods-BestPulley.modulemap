@@ -1,0 +1,6 @@
+framework module Pods_BestPulley {
+  umbrella header "Pods-BestPulley-umbrella.h"
+
+  export *
+  module * { export * }
+}
